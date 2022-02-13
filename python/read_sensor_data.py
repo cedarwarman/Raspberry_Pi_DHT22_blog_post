@@ -128,7 +128,7 @@ def main():
     url_file_dir_path = os.path.join(os.path.realpath(__file__), "url")
     sheet_ids = open_url_files(url_file_dir_path, 
         ###### CHANGE SENSORS HERE ######
-        ["home_livingroom", "home_outside"])
+        ["example_sensor"])
 
     f = open_output_file()
 
